@@ -3,6 +3,8 @@
 
 ![Vinesh Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=vineshghela&layout=compact&hide_border=false&theme=darcula&bg_color=00000000&langs_count=4%22%3E)
 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vineshghela&show_icons=true&theme=radical)
+
 ## 💻 Techs, Languages & Tools I use
 
 <img src="https://i.imgur.com/FI6zNOd.png" width="40px" alt="Java"/> &nbsp; <img src="https://i.imgur.com/o0GEoUG.png" width="40px" alt="JS"/> &nbsp; 
