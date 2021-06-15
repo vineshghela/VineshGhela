@@ -1,7 +1,4 @@
 ### Hi there 👋
-#### My most used languages:point_down:
-
-![Vinesh Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=vineshghela&layout=compact&hide_border=false&theme=darcula&bg_color=00000000&langs_count=4%22%3E)
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vineshghela&show_icons=true&theme=radical)
 
@@ -16,7 +13,9 @@
 <img src="https://i.imgur.com/1z0WLUq.png" width="70px" alt="Junit"/><img src="https://i.imgur.com/pMeFDIZ.png" width="40px" alt="Selenium"/>
 <img src="https://i.imgur.com/bXGnd1X.png" width="45px" alt="EggPlant"/>
 
+#### My most used languages:point_down:
 
+![Vinesh Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=vineshghela&layout=compact&hide_border=false&theme=darcula&bg_color=00000000&langs_count=4%22%3E)
 
 
 <!--
