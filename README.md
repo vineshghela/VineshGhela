@@ -1,6 +1,44 @@
 ### Hi there 👋
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=vineshghela&show_icons=true&theme=radical)
+![Vinesh Ghela GitHub stats](https://github-readme-stats.vercel.app/api?username=vineshghela&show_icons=true&theme=radical)
+
+```java 
+public class WhoAmI{ 
+    
+    private String name;
+    private String job; 
+    private String[] hobbies; 
+  
+    
+    public WhoAmI(String name, String job, String[] hobbies){ 
+        this.name = name; 
+        this.jo = job; 
+        this.hobbies = hobbies; 
+    } 
+  
+    // method 1 
+    public String getName(){
+      return name; 
+    } 
+    public String getJob(){
+        return job; 
+    }
+    public String [] getHobbies(){ 
+        return hobbies; 
+    } 
+    
+    @Override
+    public String toString(){ 
+        return("Hi my name is "+ this.getName()+".\nMy Job is "+ this.getJob()+" , and my hobbies are " + this.getHobbies();
+    } 
+  
+    public static void main(String[] args)
+    { 
+        whoAmI vinesh = new WhoAmI("Vinesh Ghela","Full Stack web developer",["Reading", "Trying new food","Gym" ,"Chasing Semi-colons"]); 
+        System.out.println(vinesh.toString()); 
+    } 
+} 
+```
 
 ## 💻 Techs, Languages & Tools I use
 
