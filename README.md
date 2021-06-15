@@ -12,7 +12,7 @@ public class WhoAmI{
   
     public WhoAmI(String name, String job, String[] hobbies, String location){ 
         this.name = name; 
-        this.jo = job; 
+        this.job = job; 
         this.hobbies = hobbies; 
         this.location = location;
     } 
@@ -40,7 +40,7 @@ public class WhoAmI{
             ["Reading", "Trying new food","Gym" ,"Chasing Semi-colons"], 
             "London, United Kingdom"); 
         
-        System.out.println(vinesh.toString()); 
+        System.out.println(vinesh); 
     } 
 } 
 ```
