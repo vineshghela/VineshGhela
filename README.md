@@ -10,7 +10,6 @@ public class WhoAmI{
     private String[] hobbies;
     private String location;
   
-    
     public WhoAmI(String name, String job, String[] hobbies, String location){ 
         this.name = name; 
         this.jo = job; 
@@ -30,7 +29,8 @@ public class WhoAmI{
     
     @Override
     public String toString() { 
-        return("Hi my name is "+ this.getName()+ ", from" + this.getLocation() + "! My Job is "+ this.getJob()+" and my hobbies are " + this.getHobbies();
+        return("Hi my name is "+ this.getName()+ ", from" + this.getLocation() + 
+        "! My Job is "+ this.getJob()+" and my hobbies are " + this.getHobbies();
     } 
   
     public static void main(String[] args) { 
