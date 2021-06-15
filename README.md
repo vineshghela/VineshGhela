@@ -7,16 +7,17 @@ public class WhoAmI{
     
     private String name;
     private String job; 
-    private String[] hobbies; 
+    private String[] hobbies;
+    private String location;
   
     
-    public WhoAmI(String name, String job, String[] hobbies){ 
+    public WhoAmI(String name, String job, String[] hobbies, String location){ 
         this.name = name; 
         this.jo = job; 
         this.hobbies = hobbies; 
+        this.location = location;
     } 
   
-    // method 1 
     public String getName(){
       return name; 
     } 
@@ -29,12 +30,11 @@ public class WhoAmI{
     
     @Override
     public String toString(){ 
-        return("Hi my name is "+ this.getName()+".\nMy Job is "+ this.getJob()+" , and my hobbies are " + this.getHobbies();
+        return("Hi my name is "+ this.getName()+ ", from" + this.getLocation() + "! My Job is "+ this.getJob()+" and my hobbies are " + this.getHobbies();
     } 
   
-    public static void main(String[] args)
-    { 
-        whoAmI vinesh = new WhoAmI("Vinesh Ghela","Full Stack web developer",["Reading", "Trying new food","Gym" ,"Chasing Semi-colons"]); 
+    public static void main(String[] args){ 
+        whoAmI vinesh = new WhoAmI("Vinesh Ghela","Full Stack web developer",["Reading", "Trying new food","Gym" ,"Chasing Semi-colons"], "London, United Kingdom"); 
         System.out.println(vinesh.toString()); 
     } 
 } 
