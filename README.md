@@ -18,23 +18,28 @@ public class WhoAmI{
         this.location = location;
     } 
   
-    public String getName(){
+    public String getName() {
       return name; 
     } 
-    public String getJob(){
+    public String getJob() {
         return job; 
     }
-    public String [] getHobbies(){ 
+    public String[] getHobbies() { 
         return hobbies; 
     } 
     
     @Override
-    public String toString(){ 
+    public String toString() { 
         return("Hi my name is "+ this.getName()+ ", from" + this.getLocation() + "! My Job is "+ this.getJob()+" and my hobbies are " + this.getHobbies();
     } 
   
-    public static void main(String[] args){ 
-        whoAmI vinesh = new WhoAmI("Vinesh Ghela","Full Stack web developer",["Reading", "Trying new food","Gym" ,"Chasing Semi-colons"], "London, United Kingdom"); 
+    public static void main(String[] args) { 
+        whoAmI vinesh = new WhoAmI(
+            "Vinesh Ghela",
+            "Full Stack web developer",
+            ["Reading", "Trying new food","Gym" ,"Chasing Semi-colons"], 
+            "London, United Kingdom"); 
+        
         System.out.println(vinesh.toString()); 
     } 
 } 
