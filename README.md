@@ -36,7 +36,7 @@ public class WhoAmI{
     public static void main(String[] args) { 
         whoAmI vinesh = new WhoAmI(
             "Vinesh Ghela",
-            "Full Stack web developer",
+            "QA Developer",
             ["Reading", "Trying new food","Gym" ,"Chasing Semi-colons"], 
             "London, United Kingdom"); 
         
